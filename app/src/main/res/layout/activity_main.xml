@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/fechaBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp">
+        </Button>
+        <EditText
+            android:id="@+id/fechaTxt"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/horaBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp">
+        </Button>
+        <EditText
+            android:id="@+id/horaTxt"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds">
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>
