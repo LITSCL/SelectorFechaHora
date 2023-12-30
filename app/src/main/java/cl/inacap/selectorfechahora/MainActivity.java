@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             year= ca.get(Calendar.YEAR);
 
             DatePickerDialog datePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
-            @Override
-            public void onDateSet(DatePicker view, int year, int mes, int dia) {
-                fechaTxt.setText(dia + "/" + (mes + 1) + "/" + year);
-            }
+                @Override
+                public void onDateSet(DatePicker view, int year, int mes, int dia) {
+                    fechaTxt.setText(dia + "/" + (mes + 1) + "/" + year);
+                }
             }, dia, mes, year);
         datePickerDialog.show(); //Aca es donde se hace visible el DatePickerDialog.
         }
